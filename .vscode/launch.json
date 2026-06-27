@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Collector",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "app.main",
+      "python": "${workspaceFolder}/collector/.venv/Scripts/python.exe",
+      "cwd": "${workspaceFolder}/collector",
+      "envFile": "${workspaceFolder}/.env",
+      "justMyCode": true
+    },
+    {
+      "name": "Collector Tests",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "pytest",
+      "args": ["tests/", "-v"],
+      "python": "${workspaceFolder}/collector/.venv/Scripts/python.exe",
+      "cwd": "${workspaceFolder}/collector",
+      "justMyCode": false
+    }
+  ]
+}
