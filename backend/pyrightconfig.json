@@ -1,0 +1,6 @@
+{
+  "venvPath": ".",
+  "venv": ".venv",
+  "pythonPath": "./.venv/Scripts/python.exe",
+  "extraPaths": ["."]
+}

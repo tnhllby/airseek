@@ -3,5 +3,7 @@
   "python.terminal.activateEnvironment": true,
   "[python]": {
     "editor.defaultFormatter": "charliermarsh.ruff"
-  }
+  },
+  "python.analysis.extraPaths": [],
+  "python.envFile": "${workspaceFolder}/.env"
 }
